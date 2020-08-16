@@ -1,0 +1,23 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Recipe",
+  "name": "Chickpea salad",
+  "recipeCategory": "spread",
+  "image": "https://placehold.it/100x100",
+  "description": "Chickpea salad for bbq or as spread",
+  "recipeIngredient": [
+    "1 can chickpeas",
+    "1/2 red onion",
+    "1/4 glass vegan mayo",
+    "2 tbsp pickle juice",
+    "2 dill pickles",
+    "1 tsp dijon mustard",
+    "sea salt pepper"
+  ],
+  "recipeInstructions": "Mix the chickpeas or mash them with a fork but leave some smaller pieces, chop onion and the pickles and combine everything. Add the other ingredients and mix them up.",
+  "prepTime": "PT5M",
+  "cookTime": "PT0M",
+  "totalTime": "PT5M",
+  "recipeYield": "8 servings on whole grain bread"
+}
+
