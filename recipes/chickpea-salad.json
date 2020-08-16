@@ -3,7 +3,7 @@
   "@type": "Recipe",
   "name": "Chickpea salad",
   "recipeCategory": "spread",
-  "image": "https://placehold.it/100x100",
+  "image": "./images/chickpea-salad.jpeg",
   "description": "Chickpea salad for bbq or as spread",
   "recipeIngredient": [
     "1 can chickpeas",

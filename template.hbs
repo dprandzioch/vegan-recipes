@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style type="text/css">
+    .heading {
+      margin-bottom: 3rem;
+    }
+
+    .hero {
+      background-repeat: no-repeat;
+      background-position: center center fixed;
+      background-size: cover;
+      height: 100%;
+      overflow: hidden;
+
+      height: 40vh;
+    }
+
+    .details {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    }
+  </style>
+</head>
+
+<body>
+  <div class="heading">
+    <div class="heading__meta">
+      <h1 class="heading__title">{{name}}</h1>
+      <p class="heading__description">{{description}}</p>
+    </div>
+  </div>
+
+  <div class="hero" style="background-image: url('{{image}}');"></div>
+
+  <div class="details">
+    <div class="details__ingredients">
+      <h2>Ingredients</h2>
+      <ul>
+        {{#each recipeIngredient}}
+        <li>{{this}}</li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class="details__instructions">
+      <h2>Instructions</h2>
+      <p>{{recipeInstructions}}</p>
+
+      <h3>Servings</h3>
+      <p>{{recipeYield}}</p>
+    </div>
+  </div>
+</body>
+
+</html>

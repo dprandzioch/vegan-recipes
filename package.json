@@ -1,0 +1,15 @@
+{
+  "name": "vegan-recipes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dprandzioch/vegan-recipes.git",
+  "author": "David Prandzioch <hello+git@davd.eu>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf dist/ && mkdir dist/ && cp -R recipes/images dist/images && node index.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "handlebars": "^4.7.6"
+  }
+}
